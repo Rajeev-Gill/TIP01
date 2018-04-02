@@ -176,6 +176,67 @@ p {
   height: auto;
 }
 
+/*------------------------------------*\
+  #Blog link section
+\*------------------------------------*/
+
+.blog-item-1 {
+    background: url(../images/editorial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 180px;
+    min-height: 270px;
+    margin: 36px auto;
+    /* padding: 30px 0; */
+}
+
+.blog-item-2 {
+    background: url(../images/process.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 180px;
+    min-height: 270px;
+    margin: 36px auto;
+    /* padding: 30px 0; */
+}
+
+.blog-item-3 {
+    background: url(../images/looks.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 180px;
+    min-height: 270px;
+    margin: 36px auto;
+    /* padding: 30px 0; */
+}
+
+.blog-item-4 {
+    background: url(../images/blogs.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 180px;
+    min-height: 270px;
+    margin: 36px auto;
+    /* padding: 30px 0; */
+}
+
+.blog-item-header {
+  text-align: left;
+  max-width: 76px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.blog-item-text {
+  text-align: left;
+  max-width: 76px;
+  margin: 0 auto;
+}
+
+.blog-item-link {
+  max-width: 76px;
+  margin: 0 auto;
+}
 
 
 
