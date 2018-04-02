@@ -36,9 +36,11 @@ a {
 \*------------------------------------*/
 
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9999;
+    background: #00000066;
+    padding-right: 30px;
 }
 
 .header-logo {
@@ -63,6 +65,7 @@ a {
 
 .header-menu.open {
   height: 113px;
+  padding-bottom: 30px;
 }
 
 .menu-button {
@@ -86,7 +89,8 @@ a {
 \*------------------------------------*/
 
 .hero {
-  min-height: 301px;
+    min-height: 301px;
+    margin-top: 181px;
 }
 
 .hero-shop1 {
