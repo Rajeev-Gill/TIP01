@@ -13,6 +13,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: white;
   margin: 0; /*No borders on mobile*/
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-weight: 100;
+}
+
 
 /*------------------------------------*\
   #Header
@@ -39,7 +44,7 @@ a {
     position: fixed;
     top: 0;
     z-index: 9999;
-    background: #00000066;
+    background: #000000cc;
     padding-right: 30px;
 }
 
@@ -107,7 +112,7 @@ a {
 .hero-shop1-text {
     position: relative;
     z-index: 999;
-    top: 246px;
+    top: 198px;
     /* padding-left: 30px; */
 }
 
@@ -117,21 +122,22 @@ a {
 
 .hero-shop1-text h4 {
   margin: 0;
+  padding-left: 30px;
 }
 
 .hero-shop1-text p {
-  margin: 0;
+    margin: 0;
+    font-size: 2em;
+    padding-left: 30px;
 }
 
 .hero-shop2 {
     background: url(../images/ChairTee.png);
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-size: 144%;
+    background-position: 0 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 330px;
     width: auto;
-    z-index: -99;
     top: -2px;
     position: relative;
 }
@@ -139,8 +145,7 @@ a {
 .hero-shop2-text {
     position: relative;
     z-index: 999;
-    top: 307px;
-    /* padding-left: 30px; */
+    top: 261px;
 }
 
 .hero-shop2-text:hover {
@@ -148,11 +153,33 @@ a {
 }
 
 .hero-shop2-text p {
-  margin: 0;
+    display: inline;
+    margin: 0;
+    font-size: 2em;
+    padding-left: 30px;
+}
+
+/*------------------------------------*\
+  #Event section
+\*------------------------------------*/
+
+.event-desc {
+  padding: 0 30px;
+}
+
+.event-vid {
+  max-width: 100%;
+}
+
+.event-vid-image {
+  width: 100%;
+  height: auto;
 }
 
 
-@media screen and (min-width: 480px) {
+
+
+@media screen and (min-width: 768px) {
   /*------------------------------------*\
     #Header
   \*------------------------------------*/
