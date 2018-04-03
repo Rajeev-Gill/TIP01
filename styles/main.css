@@ -406,7 +406,7 @@ p {
     margin: 0 auto;
   }
 
-  .row:after { /*This clearfix stops the rows from collapsing*/
+  .row:after { /* https://css-tricks.com/snippets/css/clear-fix/ This clearfix stops the rows from collapsing*/
   content: "";
   display: table;
   clear: both;
