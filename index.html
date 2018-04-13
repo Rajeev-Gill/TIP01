@@ -1,205 +1,172 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TIP</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TIP</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- https://stackoverflow.com/questions/6272702/should-modernizr-file-be-placed-in-head -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!--[if IE]>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- https://stackoverflow.com/questions/6272702/should-modernizr-file-be-placed-in-head -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Use SRCSET to serve responsive images for desktop users https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
+  <!-- Use SRCSET to serve responsive images for desktop users https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
 
-  <div class="fixed-grid">
-
-    <div class="row header">
-
-      <div class="col-4">
-        <h2 class="header-logo">THIS ISNT <br> PERSONAL</h2>
+  <div class="container-fluid">
+    <div class="row navigation">
+      <div class="col-sm-2 navigation-logo">
+        <h2>THIS ISNT <br /> PERSONAL</h2>
       </div>
-
-      <div class="col-8 navigation">
-        <div class="menu-button">
+      <div class="col-sm-10 navigation-menu">
+        <button class="navigation-button">
           <h4>MENU</h4>
-        </div>
-
-        <ul class="header-menu">
+        </button>
+        <ul class="navigation-links">
           <li>Home</li>
           <li>Shop</li>
           <li>Events</li>
           <li>Blog</li>
           <li>Basket (0)</li>
-
         </ul>
-
       </div>
-
-    </div> <!-- header-->
+    </div><!-- header-->
 
     <div class="row hero">
-      <div class="col-7 hero-shop1">
-        <a href="/" class="hero-shop1-text">
-          <h4>Latest Release: 12/06/2018</h4>
-          <p>View the Latest Collection</p>
-        </a>
-      </div> <!--First photo-->
+      <div class="col-sm-8 hero-collection">
+        <h4>Latest Release: 12/06/2018</h4>
+        <p>View the Latest Collection</p>
+      </div><!--First photo-->
 
-      <div class="col-5 hero-shop2">
-        <a href="/" class="hero-shop2-text">
-          <p>Shop Menswear</p>
-        </a>
+      <div class="col-sm-4 hero-shop">
+        <p>Shop Menswear</p>
       </div><!--Second photo-->
-    </div> <!-- hero -->
+
+    </div><!-- hero -->
 
     <div class="row event">
-      <div class="col-6 event-desc">
-        <h2 class="event-desc-header">TIP-ACUMEN.COM WEBSITE LAUNCH PARTY: 12/06/2017</h2>
+      <div class="event-info">
+        <h2>TIP-ACUMEN.COM WEBSITE LAUNCH PARTY: 12/06/2017</h2>
+        <p>TIP hold several fashion and music based events each year. Last year TIP held its 1st ever website launch party at the Arch in Bermondsey. Over an hundred people came to see the launch of the third collection. The collection featured the TIP menswear
+          collection including new tees, sweaters, outerwear &amp; accessories</p>
+        <h2>SEE EVENT SCHEDULE</h2>
+      </div><!-- Event Desc/text -->
 
-        <p class="event-desc-text">
-          TIP hold several fashion and music based events each year. Last year TIP held its 1st ever website launch party at the Arch
-          in Bermondsey. Over an hundred people came to see the launch
-          of the third collection. The collection featured the TIP menswear
-          collection including new tees, sweaters, outerwear & accessories
-        </p>
-
-        <a href="/" class="event-desc-link"><h2>SEE EVENT SCHEDULE</h2></a>
-      </div> <!-- Event Desc/text -->
-
-      <div class="col-6 event-vid">
-        <img class="event-vid-image" src="images/EventVideo.png" alt="An image of a recent event video">
-      </div>
-    </div> <!-- events-->
+      <div class="event-video"><img src="images/EventVideo.png" alt="An image of a recent event video" /></div>
+    </div><!-- event-->
 
     <div class="row blog-links">
-      <div class="col-4 blog-item-1">
-        <div class="blog-item-header">
-          <h4>EDITORIALS</h4>
-        </div>
-        <div class="blog-item-text">
-          <p>
-          See the studio
-          editorial for
-          the third
-          collection
-          </p>
-        </div>
-        <div class="blog-item-link">
-          Arrow
-        </div>
-      </div>
-      <div class="col-4 blog-item-2">
-        <div class="blog-item-header">
-          <h4>EDITORIALS</h4>
-        </div>
-        <div class="blog-item-text">
-          <p>
-          See the studio
-          editorial for
-          the third
-          collection
-          </p>
-        </div>
-        <div class="blog-item-link">
-          Arrow
-        </div>
-      </div>
-      <div class="col-4 blog-item-3">
-        <div class="blog-item-header">
-          <h4>EDITORIALS</h4>
-        </div>
-        <div class="blog-item-text">
-          <p>
-          See the studio
-          editorial for
-          the third
-          collection
-          </p>
-        </div>
-        <div class="blog-item-link">
-          Arrow
-        </div>
-      </div>
-      <div class="col-4 blog-item-4">
-        <div class="blog-item-header">
-          <h4>EDITORIALS</h4>
-        </div>
-        <div class="blog-item-text">
-          <p>
-          See the studio
-          editorial for
-          the third
-          collection
-          </p>
-        </div>
-        <div class="blog-item-link">
-          Arrow
-        </div>
-      </div>
-    </div> <!-- blog-links-->
 
-    <div class="row social">
-      <div class="col-4">
-        <img src="images/social1.png" alt="An image of a social media post" class="social-item">
+      <div>
+        <div>
+          <h4>EDITORIALS</h4>
+        </div>
+        <div>
+          <p>See the studio editorial for the third collection</p>
+        </div>
+        <div>Arrow</div>
       </div>
-      <div class="col-4">
-        <img src="images/social2.png" alt="An image of a social media post" class="social-item">
-      </div>
-      <div class="col-4">
-        <img src="images/social3.png" alt="An image of a social media post" class="social-item">
-      </div>
-      <div class="col-4">
-        <img src="images/social4.png" alt="An image of a social media post" class="social-item">
-      </div>
-    </div> <!-- social-media-->
 
-    <div class="row footer">
-      <div class="col-3">
-        <div class="footer-left">
-          <a href=""><h5>About Us</h5></a>
-          <a href=""><h5>Terms & Conditions</h5></a>
+      <div>
+        <div>
+          <h4>EDITORIALS</h4>
+        </div>
+        <div>
+          <p>See the studio editorial for the third collection</p>
+        </div>
+        <div>Arrow</div>
+      </div>
+
+      <div>
+        <div>
+          <h4>EDITORIALS</h4>
+        </div>
+        <div>
+          <p>See the studio editorial for the third collection</p>
+        </div>
+        <div>Arrow</div>
+      </div>
+
+      <div>
+        <div>
+          <h4>EDITORIALS</h4>
+        </div>
+        <div>
+          <p>See the studio editorial for the third collection</p>
+        </div>
+        <div>Arrow</div>
+      </div>
+    </div><!-- blog-links-->
+
+    <div>
+      <div><img src="images/social1.png" alt="An image of a social media post" /></div>
+      <div><img src="images/social2.png" alt="An image of a social media post" /></div>
+      <div><img src="images/social3.png" alt="An image of a social media post" /></div>
+      <div><img src="images/social4.png" alt="An image of a social media post" /></div>
+    </div><!-- social-media-->
+
+    <div>
+
+      <div>
+        <div>
+          <h5>About Us</h5>
+          <h5>Terms &amp; Conditions</h5>
         </div>
       </div>
-      <div class="col-3">
-        <div class="footer-center">
+
+      <div>
+        <div>
           <p>EST. 2018 TIP-ACUMEN.COM</p>
         </div>
       </div>
-      <div class="col-3">
-        <div class="footer-right">
-          <a href=""><h5>Facebook</h5></a>
-          <a href=""><h5>Instagram</h5></a>
-          <a href=""><h5>Tumblr</h5></a>
+
+      <div>
+
+        <div>
+          <h5>Facebook</h5>
+          <h5>Instagram</h5>
+          <h5>Tumblr</h5>
         </div>
+
       </div>
-    </div> <!-- footer section-->
 
-  </div> <!-- fixed-grid-->
+    </div><!-- footer section-->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+  </div><!-- fixed-grid-->
 
-    <script src="scripts/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
 
-  </body>
+  <script src="scripts/main.js"></script>
+
+</body>
+
 </html>
