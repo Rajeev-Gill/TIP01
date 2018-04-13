@@ -1,0 +1,55 @@
+
+/*------------------------------------*\
+Globals Snippet
+\*------------------------------------*/
+
+html, body {
+    overflow-x: hidden; /*Disable horizontal scroll bars*/
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background: black;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin: 0; /*No borders on mobile*/
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+li {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 100;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  /*Insert Styles*/
+
+}
+
+.vertical-align { /* http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
+  transform: translateY(4%);
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
